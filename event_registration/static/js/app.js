@@ -27,7 +27,7 @@
       function update() {
         var remaining = max - (textarea.value || '').length;
         counter.textContent = remaining + ' characters left';
-        counter.style.color = remaining < 0 ? '#b3261e' : '';
+        counter.style.color = remaining < 0 ? '#DA1E28' : '';
       }
       textarea.addEventListener('input', update);
       update();
